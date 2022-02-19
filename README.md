@@ -1,4 +1,4 @@
-# Comparing classification performance of KNN and MLP on MNIST dataset
+# Comparing classification performance of KNN, MLP, and CNN on MNIST dataset
 
 ## File guide:
 1. mnist-knn.py: Applying KNN on MNIST dataset using sklearn library.
