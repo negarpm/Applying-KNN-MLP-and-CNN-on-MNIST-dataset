@@ -38,19 +38,14 @@ model.add(Dropout(0.2))
 model.add(Dense(512, activation='relu'))
 model.add(Dropout(0.2))
 model.add(Dense(num_classes, activation='softmax'))
-
 model.summary()
 
 model.compile(loss='categorical_crossentropy', metrics=['accuracy'])
-
 start = time.time()
-
 history = model.fit(x_train, y_train, batch_size=128, epochs=30, validation_data=(x_val, y_val), verbose=2)
-
 end = time.time()
 
 accuracy = model.evaluate(x_test, y_test, verbose=2)
 
 print('classification accuracy is {}%'.format(round(accuracy[1] * 100, 2)))
-
 print('The processing time is {} seconds'.format(round(end - start, 2)))
