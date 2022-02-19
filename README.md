@@ -2,7 +2,7 @@
 
 ## File guide:
 1. mnist-knn.py: applying KNN on MNIST dataset using sklearn library.
-2. mnist.mlp.py: applying MLP on MNIST dataset using Tensorflow library.
+2. mnist_mlp.py: applying MLP on MNIST dataset using Tensorflow library.
 
 ## Results:
 
