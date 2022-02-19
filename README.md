@@ -9,6 +9,6 @@
 
 |        |   KNN   |MLP   | CNN |
 | ------------- |:-------------:| :-----:| :------:|
-| Test accuracy    | 97.00 % |  97.97 % | 98.96 |
+| Test accuracy    | 97.00 % |  97.97 % | 98.96 % |
 | Processing time  | 790.51 seconds      |   175.94 seconds | 143.24 seconds |
 
